@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:you_can/src/presentation/you_can/view/register_page_mobile.dart';
+import 'package:you_can/src/presentation/you_can/view/leding_page.dart';
 
 class RegFinish extends StatelessWidget {
   const RegFinish({super.key});
@@ -90,7 +90,7 @@ class RegFinish extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => RegisterPageMobile(),
+                      builder: (context) => LedingPage(),
                     ),
                   );
                 },
