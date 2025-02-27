@@ -11,6 +11,9 @@ class App extends StatelessWidget {
       builder: (p0, p1, p2) => MaterialApp(
         debugShowCheckedModeBanner: false,
         home: RegisterPageMobile(),
+        // home: Scaffold(
+        //   backgroundColor: Colors.black,
+        // ),
       ),
     );
   }
