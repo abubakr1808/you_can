@@ -18,7 +18,7 @@ class _AuthorizationPageMobiliState extends State<AuthorizationPageMobili> {
     setState(
       () {
         Nomercontroller!.text = sheret.getString("Nomercontroller") ?? "";
-        Parolcontroller!.text = sheret.getString("Parolcontroller") ?? "";
+        Parolcontroller!.text = sheret.getString("Parolcontroller") ?? ""; 
       },
     );
   }

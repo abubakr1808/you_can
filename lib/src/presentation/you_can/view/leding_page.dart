@@ -149,7 +149,7 @@ class LedingPage extends StatelessWidget {
                         "У МЕНЯ УЖЕ ЕСТЬ АККАУНТ",
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 16.sp,
+                          fontSize: 14.5.sp,
                         ),
                       ),
                     ),
